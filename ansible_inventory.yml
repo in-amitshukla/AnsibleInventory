@@ -1,5 +1,6 @@
 ---
  - name: Perform Export of Ansible Inventory
+   hosts: all
    tasks:
      - name: Export all inventories
        tower_export:
