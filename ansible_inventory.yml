@@ -1,4 +1,6 @@
 ---
- - name: Export all inventories
-   tower_export:
-     inventory: 'all'
+ - name: Perform Export of Ansible Inventory
+   tasks:
+     - name: Export all inventories
+       tower_export:
+         inventory: 'all'
